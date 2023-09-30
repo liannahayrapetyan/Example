@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- Title -->
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+      <!-- Navigation Bar -->
+        <nav class="navbar position-fixed w-100">
+            <div class="container d-flex align-items-center justify-content-between">
+              <div class="logo">
+                <a href="#">Jack</a>
+              </div>
+              <ul class="menu-list mb-0">
+                <div class="icon cancel-btn position-absolute">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+              <div class="icon menu-btn">
+                <i class="bi bi-list"></i>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Home -->
+          <section class="home" id="home">
+            <div class="container">
+              <div class="col-12 home-items d-flex align-items-center flex-column justify-content-center">
+                <div class="home-img d-flex justify-content-center position-relative">
+                  <div class="border-animation"></div>
+                  <img src="img/hero.png" alt="">
+                </div>
+                <div class="col-12 home-header d-flex align-items-center flex-column">
+                  <div class="home-text text-white text-center">
+                    <h2>Jack Brown</h2>
+                    <span>UI/UX Designer Meneger</span>
+                  </div>  
+                  <div class="social-links">
+                    <a href="#">
+                      <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#">
+                      <i class="bi bi-messenger"></i>
+                    </a>
+                    <a href="#">
+                      <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="#">
+                      <i class="bi bi-behance"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </header>
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="title">
+          <h2>About me</h2>
+        </div>
+        <div class="row">
+          <div class="ab-top col-lg-12 py-3">
+            <p><span>Hello! I’m Jack.</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis ornare purus. Morbi luctus tortor nunc, vitae posuere nibh malesuada sed. In nec tortor eu nibh tristique vehicula sed in lectus. Phasellus vitae accumsan tortor. Fusce ac vestibulum ante.</p>
+          </div>
+          <div class="ab-bottom d-flex flex-lg-row flex-column col-lg-12">
+            <div class="ab-left col-lg-6">
+              <h2>Personal Details</h2>
+              <ul class="d-flex flex-column">
+                <li><strong>Birtdate</strong>24-10-2003</li>
+                <li><strong>Phone</strong>+42 256 354 456</li>
+                <li><strong>Email</strong>example@gmail.com</li>
+                <li><strong>Website</strong>www.example.com</li>
+                <li><strong>Address</strong>Armenia, Yerevan</li>
+                <li><strong>Job Status</strong><a href="#">Freelance</a></li>
+              </ul>
+            </div>
+            <div class="ab-right col-lg-6">
+              <h2>My Interests</h2>
+              <div class="d-flex flex-wrap product">
+                <div class="d-flex flex-column align-items-center product-item">
+                  <i class="bi bi-dpad-fill"></i>
+                  <span>Games</span>
+                </div>
+                <div class="d-flex flex-column align-items-center product-item">
+                  <i class="bi bi-music-note-beamed"></i>
+                  <span>Music</span>
+                </div>
+                <div class="d-flex flex-column align-items-center product-item">
+                  <i class="bi bi-globe"></i>
+                  <span>Travel</span>
+                </div>
+                <div class="d-flex flex-column align-items-center product-item">
+                  <i class="bi bi-apple"></i>
+                  <span>Mac OS</span>
+                </div>
+                <div class="d-flex flex-column align-items-center product-item">
+                  <i class="bi bi-camera-video-fill"></i>
+                  <span>Cinema</span>
+                </div>
+                <div class="d-flex flex-column align-items-center product-item">
+                  <i class="bi bi-cup-fill"></i>
+                  <span>Caffe</span>
+                </div>
+                <div class="d-flex flex-column align-items-center product-item">
+                  <i class="bi bi-laptop-fill"></i>
+                  <span>Laptop</span>
+                </div>
+                <div class="d-flex flex-column align-items-center product-item">
+                  <i class="bi bi-cash"></i>
+                  <span>Money</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ab-download w-100 d-flex align-items-center justify-content-center">
+            <a href="#">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="title">
+          <h2>Services</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 services-item">
+            <div class="services-heading d-flex align-items-center justify-content-center flex-column ">
+              <i class="bi bi-code-slash"></i>
+              <h2>Web Development</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, accusamus.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 services-item">
+            <div class="services-heading d-flex align-items-center justify-content-center flex-column">
+              <i class="bi bi-grid-1x2-fill"></i>
+              <h2>Web Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, accusamus.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 services-item">
+            <div class="services-heading d-flex align-items-center justify-content-center flex-column ">
+              <i class="bi bi-palette-fill"></i>
+              <h2>Graphic Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, accusamus.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 services-item">
+            <div class="services-heading d-flex align-items-center justify-content-center flex-column">
+              <i class="bi bi-camera2"></i>
+              <h2>Photoshop</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, accusamus.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center flex-column services-item">
+            <div class="services-heading d-flex align-items-center justify-content-center flex-column">
+              <i class="bi bi-search"></i>
+              <h2>Seo Marketing</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, accusamus.</p>
+              <a href="#">Read More</a></div>
+          </div>
+          <div class="col-lg-4 col-md-6 services-item">
+            <div class="services-heading d-flex align-items-center justify-content-center flex-column">
+              <i class="bi bi-phone-fill"></i>
+              <h2>Mobile App</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, accusamus.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Bar -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="title">
+          <h2>Skills</h2>
+        </div>
+        <div class="row flex-wrap">
+          <div class="col-lg-6 d-flex flex-column skills-heading py-4">
+            <h2>Lorem ipsum dolor sit amet </h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, quasi magni. Velit, ipsum voluptates dicta illo quod iure, libero numquam sint qui assumenda animi architecto esse odit exercitationem eligendi cumque!</p>
+            <div class="skills-href">
+              <a href="#">Learn All</a>
+              <a href="#">Download CV</a>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex flex-column skills-box py-4">
+            <div class="skill d-flex flex-column">
+              <div class="skill-bar d-flex justify-content-between align-items-center">
+                <h2>HTML</h2>
+                <span>90%</span>
+              </div>
+              <span class="skills-html">
+              </span>
+            </div>
+            <div class="skill d-flex flex-column">
+              <div class="skill-bar d-flex justify-content-between align-items-center">
+                <h2>CSS</h2>
+                <span>87%</span>
+              </div>
+              <span class="skills-css">
+              </span>
+            </div>
+            <div class="skill d-flex flex-column">
+              <div class="skill-bar d-flex justify-content-between align-items-center">
+                <h2>JS</h2>
+                <span>80%</span>
+              </div>
+              <span class="skills-js">
+              </span>
+            </div>
+            <div class="skill d-flex flex-column">
+              <div class="skill-bar d-flex justify-content-between align-items-center">
+                <h2>PHP</h2>
+                <span>60%</span>
+              </div>
+              <span class="skills-php">
+              </span>
+            </div>
+            <div class="skill d-flex flex-column">
+              <div class="skill-bar d-flex justify-content-between align-items-center">
+                <h2>BOOTSTRAP</h2>
+                <span>89%</span>
+              </div>
+              <span class="skills-bootstrap">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="resume" id="resume">
+      <div class="container">
+        <div class="title">
+          <h2>My Resume</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 resume-left">
+            <h2>Education</h2>
+            <div class="col-lg-12 education d-flex flex-column align-items-center">
+              <div class="education-item">
+                <h3>Art & Multimedia From <a href="#">Oxford University</a></h3>
+                <span>2005 - 2008</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis ornare purus. Morbi luctus tortor nunc, vitae posuere nibh malesuada sed.</p>
+              </div>
+              <div class="education-item">
+                <h3>Art & Multimedia From <a href="#">Oxford University</a></h3>
+                <span>2005 - 2008</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis ornare purus. Morbi luctus tortor nunc, vitae posuere nibh malesuada sed.</p>
+              </div>
+              <div class="education-item">
+                <h3>Art & Multimedia From <a href="#">Oxford University</a></h3>
+                <span>2005 - 2008</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis ornare purus. Morbi luctus tortor nunc, vitae posuere nibh malesuada sed.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 resume-right">
+            <h2>Work Experience</h2>
+            <div class="col-12 experience d-flex flex-column align-items-center">
+              <div class="experience-item">
+                <h3>Art & Multimedia From <a href="#">Oxford University</a></h3>
+                <span>2005 - 2008</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis ornare purus. Morbi luctus tortor nunc, vitae posuere nibh malesuada sed.</p>
+              </div>
+              <div class="experience-item">
+                <h3>Art & Multimedia From <a href="#">Oxford University</a></h3>
+                <span>2005 - 2008</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis ornare purus. Morbi luctus tortor nunc, vitae posuere nibh malesuada sed.</p>
+              </div>
+              <div class="experience-item">
+                <h3>Art & Multimedia From <a href="#">Oxford University</a></h3>
+                <span>2005 - 2008</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis ornare purus. Morbi luctus tortor nunc, vitae posuere nibh malesuada sed.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="blog" id="blog">
+      <div class="container">
+        <div class="title">
+          <h2>Our Blog</h2>
+        </div>
+        <div class="row mx-1">
+          <div class="col-12 blog-details d-flex flex-column flex-lg-row align-items-center">
+            <div class="col-lg-4">
+              <img class="w-100" src="img/blog.jpg" alt="">
+            </div>
+            <div class="col-lg-8 blog-heading d-flex flex-column">
+              <h2>How to Design Buttons <span>Users Cent</span></h2>
+              <span>2022/03/03</span>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid architecto doloribus nihil repellat, sunt, vel sequi, numquam incidunt iste facere totam. Saepe quaerat delectus sequi facilis iste ipsum voluptatem error.</p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="col-12 blog-details d-flex flex-column flex-lg-row flex-lg-row-reverse align-items-center">
+            <div class="col-lg-4">
+              <img class="w-100" src="img/blog-2.jpg" alt="">
+            </div>
+            <div class="col-lg-8 blog-heading d-flex flex-column">
+              <h2>How to Design Buttons <span>Users Cent</span></h2>
+              <span>2022/03/03</span>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid architecto doloribus nihil repellat, sunt, vel sequi, numquam incidunt iste facere totam. Saepe quaerat delectus sequi facilis iste ipsum voluptatem error.</p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="col-12 blog-details d-flex flex-column flex-lg-row align-items-center">
+            <div class="col-lg-4">
+              <img class="w-100" src="img/blog-3.jpg" alt="">
+            </div>
+            <div class="col-lg-8 blog-heading d-flex flex-column">
+              <h2>How to Design Buttons <span>Users Cent</span> </h2>
+              <span>2022/03/03</span>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid architecto doloribus nihil repellat, sunt, vel sequi, numquam incidunt iste facere totam. Saepe quaerat delectus sequi facilis iste ipsum voluptatem error.</p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="title">
+          <h2>Contact Me</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 contact-left flex-wrap d-flex">
+            <div class="col-12 col-lg-6 contact-items">
+              <div class="col-12 contact-heading d-flex flex-column align-items-center justify-content-center">
+                <i class="bi bi-telephone-fill"></i>
+                <h2>+56 756 868 756</h2>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 contact-items">
+              <div class="col-12 contact-heading d-flex flex-column align-items-center justify-content-center">
+                <i class="bi bi-house-door-fill"></i>
+                <h2>Armenia, Yerevan</h2>
+              </div>
+            </div>
+            <div class="col-12 contact-items">
+              <div class="col-12 contact-heading d-flex flex-column align-items-center justify-content-center">
+                <i class="bi bi-envelope-fill"></i>
+                <h2>info.999@email.com</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 contact-right">
+            <form class="col-12 d-flex flex-column">
+              <input type="text" placeholder="Last Name">
+              <input type="email" placeholder="Email">
+              <textarea placeholder="Message"></textarea>
+              <button>Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a class="back-top" href="#">UP</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="social-icons">
+              <li>
+                <a href="#">
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="bi bi-messenger"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="bi bi-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="bi bi-behance"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-12">
+            <p>Copyright 2019 <a href="#">Jack</a>.All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
